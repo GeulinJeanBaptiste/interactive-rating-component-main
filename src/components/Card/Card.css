@@ -1,0 +1,57 @@
+.Card {
+    background-color: hsl(213, 19%, 18%);
+    width: 330px;
+    height: 360px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.CardDivImg {
+    width: 10%;
+    height: auto;
+}
+
+/* .Card img {
+    width: 50px;
+    height: auto;
+} */
+
+.Card .CardTitle {
+    color: hsl(0, 0%, 100%);
+}
+
+.Card .CardText {
+    color: hsl(217, 12%, 63%);
+}
+
+.Card .CardNumbers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Card .CardNumber {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: hsl(216, 12%, 8%) 1px solid;
+    background-color: hsl(216, 12%, 8%);
+    margin: 2px;
+    font-size: 24px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+}
+
+.Card .CardButton {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+    padding: 0.5rem;
+    text-align: center;
+}
