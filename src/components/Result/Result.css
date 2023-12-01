@@ -1,0 +1,40 @@
+/* Result */
+.Result {
+    background-color: hsl(213, 19%, 18%);
+    width: 342px;
+    height: 360px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* Image de result */
+.ResultDivImg {
+    width: 50%;
+    height: auto;
+}
+
+/* Le resultat de Result */
+.Resultresult {
+    color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+    background-color: hsl(213, 10%, 21%);
+    padding: .5rem;
+    font-size: 14px;
+
+}
+
+/* Le titre de Result */
+.ResultTitle {
+    color: white;
+}
+
+/* Le texte de Result */
+.ResultText {
+    color: hsl(217, 12%, 63%);
+    font-size: 14px;
+    text-align: center;
+}

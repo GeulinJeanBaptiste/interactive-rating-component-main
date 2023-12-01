@@ -1,5 +1,6 @@
 import './App.css';
 import Card from "./components/Card/Card";
+import Result from './components/Result/Result';
 const App = () => {
 
 
@@ -7,7 +8,7 @@ const App = () => {
     <>
       <header></header>
       <main><Card></Card></main>
-      <footer></footer>
+      <footer><Result></Result></footer>
     </>
   )
 
