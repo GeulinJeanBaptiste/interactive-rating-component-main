@@ -1,6 +1,7 @@
+/* Card */
 .Card {
     background-color: hsl(213, 19%, 18%);
-    width: 330px;
+    width: 320px;
     height: 360px;
     border-radius: 10px;
     display: flex;
@@ -9,28 +10,29 @@
     padding: 1rem;
 }
 
+/* Image de la carte */
 .CardDivImg {
-    width: 10%;
-    height: auto;
+    width: 40px;
+    height: 40px;
 }
 
-/* .Card img {
-    width: 50px;
-    height: auto;
-} */
-
+/* Le titre de la carte */
 .Card .CardTitle {
     color: hsl(0, 0%, 100%);
 }
 
+/* Le texte de la carte */
 .Card .CardText {
     color: hsl(217, 12%, 63%);
 }
 
+/* la ligne des pastilles */
 .Card .CardNumbers {
     display: flex;
     justify-content: space-around;
 }
+
+/* Les pastilles de 1 à 5  */
 
 .Card .CardNumber {
     display: flex;
@@ -48,10 +50,12 @@
     color: hsl(217, 12%, 63%);
 }
 
+/* Le boutton SUBMIT */
 .Card .CardButton {
     color: white;
     background-color: hsl(25, 97%, 53%);
     border-radius: 25px;
     padding: 0.5rem;
     text-align: center;
+    cursor: pointer;
 }

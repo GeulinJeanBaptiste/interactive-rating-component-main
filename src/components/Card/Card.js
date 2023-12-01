@@ -1,10 +1,10 @@
 import React from 'react';
 import './Card.css';
 
-const Card = (props) => (
+const Card = () => (
   <div className="Card">
     <div className='CardDivImg'>
-      <img src='/public/assets/img/icon-star.svg' alt=''></img>
+      <img src='C:\Users\oz76\Desktop\Ceppic Formation\REACT\interactive-rating-component-main\public\assets\images\icon-star.svg' alt=''></img>
     </div>
     <h2 className='CardTitle'>How did we do?</h2>
     <p className='CardText '>Please let us know how we did with your support request. All feedback is appreciated to help us improve our ofering!</p>
