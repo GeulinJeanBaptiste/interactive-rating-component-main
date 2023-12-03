@@ -14,10 +14,10 @@ input {
 
 main {
     background-color: hsl(216, 12%, 8%);
-    height: 50vh;
+    height: 100vh;
 }
 
 footer {
     background-color: hsl(216, 12%, 8%);
-    height: 50vh;
+    height: 100vh;
 }
