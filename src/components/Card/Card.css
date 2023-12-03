@@ -60,11 +60,12 @@
     color: hsl(217, 12%, 63%);
 }
 
+/* Les pastilles au hover */
 .Card .CardNumber:hover {
-
     background-color: hsl(25, 97%, 53%);
     color: white;
 }
+
 
 /* Le boutton SUBMIT */
 .Card .CardButton {
